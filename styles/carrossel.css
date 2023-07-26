@@ -19,8 +19,11 @@
 }
 .card__descricao{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
+    justify-content: space-between 1em;
+    margin-bottom: 2em;
+}
+.descricao{
+    margin: 0 1.5em 0 0;
 }
 .descricao__titulo{
     font-weight: 700;
@@ -50,6 +53,7 @@
 }
 .descricao_texto{
     font-size: 14px;
+    margin: 0 2.3em 0 0;
 }
 .botoes__item{
     margin: 0.5em;

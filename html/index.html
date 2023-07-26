@@ -34,6 +34,7 @@
                 </li>
             </ul>
             <img src="/assets/Logo(1).png" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
         <div class="container">
             <a href="#"><img src="/assets/favoritos.svg" class="container__imagem"></a>
@@ -87,6 +88,96 @@
     </div>
 
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <!-- Slider main container -->
+    <div class="swiper">
+                <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="/assets/Construct2.svg" alt=""></div>
+        <div class="swiper-slide"><img src="/assets/Arquitetura.svg"></div>
+        <div class="swiper-slide"><img src="/assets/ApacheKafka(1).svg"></div>
+        <div class="swiper-slide"><img src="/assets/Portugol.svg"></div>
+        <div class="swiper-slide"><img src="/assets/Acessibilidade.svg"></div>
+        </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+
+    </div>
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img class="descricao__estrelas" src="/assets/Estrelinhas.png"> 
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao_texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="/assets/Perfil-escritora 1.svg">
+            </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="/assets/favoritos.svg" alt=""></li>
+                <li class="botoes__item"><img src="/assets/sacola.svg" alt=""></li>
+            </ul>
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Startups</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML & CSS</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">OO</a>
+            </li>
+
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" class="contato__email" placeholder= "Cadastre seu e-mail?">
+    </section>
+    <hr />
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Alura</h2>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
