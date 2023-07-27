@@ -32,7 +32,7 @@
 }
 .lista-menu__titulo,
 .lista-menu__item{
-    padding: 1em;
+    padding: 0.8em;
     background-color: var(--branco);
     
 }
@@ -87,7 +87,9 @@
     .cabecalho__menu-hamburguer{
         display: none;
     }
-    .opções-botão:checked ~ .lista-menu{
+    .opções__botão:checked ~.lista-menu{
         display: block;
+        width: auto;
     }
+
 }

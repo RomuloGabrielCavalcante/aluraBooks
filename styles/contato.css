@@ -34,3 +34,25 @@
     color: black;
     
 }
+@media screen and (min-width: 1024px){
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contato__email{
+        width: 30%;
+    }
+
+    .contato__descrição{
+        width: 30%;
+        font-size: 24px;
+    }
+    .contato__texto{
+        font-size: 16px;
+    }
+    .contato__titulo{
+        font-size: 24px;
+    }
+}
